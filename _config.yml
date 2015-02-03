@@ -15,7 +15,7 @@ rss:
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties
+highlight_theme: normal
 
 # Specify the date when the site was setup
 since: 2011

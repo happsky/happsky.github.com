@@ -8,7 +8,7 @@
 
 <h1 class="site-meta">
     <a href="{{ config.root }}" class="brand">
-        <span class="logo the-shape"></span>
+        <span class="logo"></span>
         <span class="site-title">{{ config.title }}</span>
     </a>
 </h1>

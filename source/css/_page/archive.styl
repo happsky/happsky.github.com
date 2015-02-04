@@ -1,15 +1,15 @@
 .page-archive {
 
-  $left = 55px;
-  $left-mobile = 30px;
+  $left = 25px;
+  $left-mobile = 5px;
 
   .archive-page-counter {
     position: relative;
     top: 3px;
-    left: 70px;
+    left: $left + 10px;
 
     +mobile() {
-      left: 50px;
+      left: $left;
     }
   }
 

@@ -6,11 +6,13 @@
 </head>
 
 <body>
-  <div class="container one-column {% block page_class %}{% endblock %}">
+  <div class="container one-column
+              {% if not is_home() %} page-not-home {% endif %}
+              {% block page_class %}{% endblock %}">
     <div class="headband"></div>
 
     <div id="header" class="header">
-      <div class="header-inner">
+      <div class="header-inner clearfix">
         {% include '_partials/header.swig' %}
       </div>
     </div>

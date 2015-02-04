@@ -19,16 +19,30 @@
 .brand {
   position: relative;
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 20px 0 15px;
   color: $brandTextColor;
   background: $brandBackground
   border-bottom: none;
   font-family: $fontLogo;
+}
 
-  the-shape(12px, white, 6px);
+.logo {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: top;
 
-  .the-shape {
-    margin-right: 5px;
+  &::before {
+    position: relative;
+    top: -1px;
+    content: " ";
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    line-height: 36px;
+    background: white;
+    transform-rotate(45deg);
   }
 }
 
@@ -63,7 +77,7 @@
     text-decoration: none;
     text-transform: capitalize;
     border-bottom: 1px solid white;
-    trasition-property: border-color;
+    transition-property: border-color;
     the-transition();
 
     &:hover {
@@ -103,4 +117,69 @@
 .menu-item-about a::before {
   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB3aWR0aD0iNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAtMWg0OHY0OGgtNDh6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTMxIDIxYzEuNjYgMCAzLTEuMzQgMy0zcy0xLjM0LTMtMy0zLTMgMS4zNC0zIDMgMS4zNCAzIDMgM3ptLTE0IDBjMS42NiAwIDMtMS4zNCAzLTNzLTEuMzQtMy0zLTMtMyAxLjM0LTMgMyAxLjM0IDMgMyAzem03IDE0YzUuMjIgMCA5LjY1LTMuMzQgMTEuMy04aC0yMi42YzEuNjUgNC42NiA2LjA4IDggMTEuMyA4em0tLjAxLTMyYy0xMS4wNSAwLTE5Ljk5IDguOTUtMTkuOTkgMjBzOC45NCAyMCAxOS45OSAyMGMxMS4wNSAwIDIwLjAxLTguOTUgMjAuMDEtMjBzLTguOTYtMjAtMjAuMDEtMjB6bS4wMSAzNmMtOC44NCAwLTE2LTcuMTYtMTYtMTZzNy4xNi0xNiAxNi0xNiAxNiA3LjE2IDE2IDE2LTcuMTYgMTYtMTYgMTZ6Ii8+PC9zdmc+") no-repeat;
   background-size: 100% 100%;
+}
+
+
+.page-not-home {
+
+  .header-inner {
+    padding-top: 0;
+
+    +mobile() {
+      padding-bottom: 30px;
+    }
+  }
+
+
+
+  .site-meta {
+    float: left;
+    text-align: left;
+
+    +mobile() {
+      float: none
+      .brand {
+        display: block;
+        line-height: 50px;
+      }
+    }
+
+    .brand {
+      padding: 0 20px 0 10px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      +mobile() {
+        line-height: 50px;
+      }
+    }
+    .site-title {
+      font-size: 16px;
+      +mobile() {
+        line-height: 50px;
+      }
+    }
+  }
+
+  .menu {
+    float: right;
+    margin: 14px 0 0 0;
+    padding: 0 20px;
+
+    a::before {
+      display: none;
+
+      +mobile() {
+        display: block;
+      }
+    }
+
+    +mobile() {
+      float: none;
+    }
+  }
 }

@@ -12,14 +12,14 @@
   <span class="archive-page-counter">
     {% set cheers %}
     {% set posts_length = site.posts.length %}
-    {% if posts_length > 210 %} {% set cheers = 'Excellent' %}
-    {% elif posts_length > 130 %} {% set cheers = 'Great' %}
-    {% elif posts_length > 80 %} {% set cheers = 'Good' %}
-    {% elif posts_length > 50 %} {% set cheers = 'Nice' %}
-    {% elif posts_length > 30 %} {% set cheers = 'OK' %}
-    {% else %} {% set cheers = 'Um' %}
+    {% if posts_length > 210 %} {% set cheers = 'excellent' %}
+    {% elif posts_length > 130 %} {% set cheers = 'great' %}
+    {% elif posts_length > 80 %} {% set cheers = 'good' %}
+    {% elif posts_length > 50 %} {% set cheers = 'nice' %}
+    {% elif posts_length > 30 %} {% set cheers = 'ok' %}
+    {% else %} {% set cheers = 'um' %}
     {% endif %}
-    {{ cheers }}! <span class="archive-page-counter-number">{{ site.posts.length }}</span>  posts in total. Keep on posting.
+    {{ __('cheers.' + cheers) }}! {{ _p("counter.archive_posts", site.posts.length) }} {{ __('keep_on') }}
   </span>
 
   {% for post in page.posts %}
@@ -30,7 +30,7 @@
 
     {% if post.year !== year %}
       {% set year = post.year %}
-      <div class="archive-year">
+      <div class="collection-title">
         <h2 id="archive-year-{{ year }}">{{ year }}</h2>
       </div>
     {% endif %}
@@ -50,7 +50,7 @@
           opacity: clock ? 1 : 0.1
         }, 1000);
         clock = !clock;
-        setTimeout(moveOn, 1000);
+        //setTimeout(moveOn, 1000);
       }
       moveOn();
     });

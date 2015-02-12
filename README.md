@@ -71,13 +71,24 @@ NexT使用[IcoMoon](http://icomoon.io)的服务为主题提供四套内建的图
 language: zh-Hans
 ```
 
-### 多说评论支持
+### 多说/DISQUS评论系统支持
 
-> 编辑站点的`_config.yml`，添加`duoshuo`字段，设置如下
+> 添加多说或者Disqus第三方评论系统。当同时设置了多说和Disqus时，优先选择多说。
+
+使用多说
+
+编辑**站点**的`_config.yml`，添加`duoshuo_shortname`字段，设置如下
 
 ```
-duoshuo:
-  shortname: duoshuo-shortname
+duoshuo_shortname: your-duoshuo-shortname
+```
+
+使用[Disqus](https://disqus.com)
+
+编辑**站点**的`_config.yml`，添加`duoshuo_shortname`字段，设置如下
+
+```
+disqus_shortname: your-disqus-shortname
 ```
 
 ### 标签云页面
@@ -189,6 +200,18 @@ fancybox: true
 # 可用: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons:
 
+# Google Webmaster tools verification
+# 设置Google站点管理工具的验证字符串，用于提交sitemap
+google_site_verification:
+
+# Google Analytics
+# Google分析ID
+google_analytics:
+
+# 百度分析ID
+baidu_analytics:
+
+
 # 指定站点建立时间
 # 这个时间将在站点的底部显示，例如 `© 2013 - 2015`
 since: 2013
@@ -227,11 +250,13 @@ First things first, always keep things simple.
 - [ ] Home page.
 - [ ] HTML5 Please
 - [ ] Add [typicons.font](https://github.com/stephenhutchings/typicons.font).
-- [ ] Disuqus support.
+- [x] Disuqus support.
 - [ ] TIT - Theme in theme.
 - [ ] Motion design.
 - [ ] Expandable information area.
 - [ ] New Gallery design.
+- [x] Add Google site verification meta.
+- [x] Add Google/Baidu analytics.
 
 
 [![hexo-image]][hexo-url]

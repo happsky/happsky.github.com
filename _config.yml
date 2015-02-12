@@ -34,6 +34,18 @@ since: 2011
 creative_commons: by-nc-sa
 
 
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+google_site_verification: VvyjvVXcJQa0QklHipu6pwm2PJGnnchIqX7s5JbbT_0
+
+
+# Google Analytics
+# Google分析ID
+google_analytics:
+
+
+# 百度分析ID
+baidu_analytics:
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS
 ## UNLESS YOU KNOW WHAT YOU ARE DOING

@@ -25,7 +25,7 @@ icon_font: linecons
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
 
-
+motion: true
 
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS

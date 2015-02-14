@@ -31,7 +31,7 @@
     {% if post.year !== year %}
       {% set year = post.year %}
       <div class="collection-title">
-        <h2 id="archive-year-{{ year }}">{{ year }}</h2>
+        <h2 class="archive-year motion-element" id="archive-year-{{ year }}">{{ year }}</h2>
       </div>
     {% endif %}
     {# endshow #}
@@ -43,6 +43,7 @@
 
 {% block script_extra %}
   <script type="text/javascript">
+<<<<<<< HEAD
     $(document).ready(function () {
       var clock = 0;
       function moveOn() {
@@ -54,5 +55,8 @@
       }
       moveOn();
     });
+=======
+    $('.archive-year').velocity('transition.slideLeftIn');
+>>>>>>> dev
   </script>
 {% endblock %}

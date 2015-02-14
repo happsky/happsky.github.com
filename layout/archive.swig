@@ -43,20 +43,6 @@
 
 {% block script_extra %}
   <script type="text/javascript">
-<<<<<<< HEAD
-    $(document).ready(function () {
-      var clock = 0;
-      function moveOn() {
-        $('.archive-move-on').animate({
-          opacity: clock ? 1 : 0.1
-        }, 1000);
-        clock = !clock;
-        //setTimeout(moveOn, 1000);
-      }
-      moveOn();
-    });
-=======
     $('.archive-year').velocity('transition.slideLeftIn');
->>>>>>> dev
   </script>
 {% endblock %}

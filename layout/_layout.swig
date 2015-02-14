@@ -20,7 +20,6 @@
     <div id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content">
-
           {% if is_home() or is_post() %}
             {% set postsClass = "posts-expand" %}
           {% else %}
@@ -37,6 +36,58 @@
             </div>
           {% endif %}
         </div>
+
+        <div class="sidebar-toggle">
+          <div class="sidebar-toggle-line-wrap">
+            <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+            <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+            <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+          </div>
+        </div>
+
+        <div id="sidebar" class="sidebar">
+          <div class="sidebar-inner">
+            <div class="site-author motion-element">
+              <img class="site-author-image" src="{{ theme.avatar || '/images/default_avatar.jpg' }}" alt="{{ theme.author }}" />
+              <p class="site-author-name">{{ theme.author }}</p>
+            </div>
+            <p class="site-description motion-element">{{ theme.description }}</p>
+            <div class="site-state motion-element">
+              <div class="site-state-item site-state-posts">
+                <span class="site-state-item-count">{{ site.posts.length }}</span>
+                <span class="site-state-item-name">{{ __('state.posts') }}</span>
+              </div>
+              <div class="site-state-item site-state-tags">
+                  <span class="site-state-item-count">{{ site.tags.length }}</span>
+                  <span class="site-state-item-name">{{ __('state.tags') }}</span>
+              </div>
+              <div class="site-state-item site-state-pages">
+                  <span class="site-state-item-count">{{ site.pages.length }}</span>
+                  <span class="site-state-item-name">{{ __('state.pages') }}</span>
+              </div>
+            </div>
+
+            {% if theme.rss %}
+            <div class="feed-link motion-element">
+              <a href="{{ url_for(theme.rss) }}">
+                <i class="menu-item-icon icon-feed"></i>
+                RSS
+              </a>
+            </div>
+            {% endif %}
+
+            <div class="social-info motion-element">
+              {% if theme.social %}
+                {% for name, link in theme.social %}
+                  <span class="soclial-item">
+                    <a href="{{ link }}">{{ name|upper }}</a>
+                  </span>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -64,7 +115,94 @@
   {% endif %}
 
   <script type="text/javascript">
-    $('.post').velocity('transition.slideDownIn', {stagger: 300, drag: true});
+    var body = $('body');
+    var isSidebarVisible = false;
+    var sidebarToggle = $('.sidebar-toggle');
+    var sidebarToggleLine1st = $('.sidebar-toggle-line-first')
+    var sidebarToggleLine2nd = $('.sidebar-toggle-line-middle');
+    var sidebarToggleLine3rd = $('.sidebar-toggle-line-last');
+    var sidebar = $('.sidebar');
+
+    var sidebarToogleLineStatusInit = {width: '100%', opacity: 1, left: 0, rotateZ: 0, top: 0};
+
+    var sidebarToggleLine1stStatusInit = sidebarToogleLineStatusInit;
+    var sidebarToggleLine1stStatusArrow = {width: '50%', rotateZ: '-45deg', top: '2px'};
+    var sidebarToogleLine1stStatusClose = {width: '100%', rotateZ: '-45deg', top: '5px'};
+
+    var sidebarToggleLine2ndStatusInit = sidebarToogleLineStatusInit;
+    var sidebarToggleLine2ndStatusArrow = {width: '90%'};
+    var sidebarToogleLine2ndStatusClose = {opacity: 0};
+
+    var sidebarToggleLine3rdStatusInit = sidebarToogleLineStatusInit;
+    var sidebarToggleLine3rdStatusArrow = {width: '50%', rotateZ: '45deg', top: '-2px'};
+    var sidebarToogleLine3rdStatusClose = {width: '100%', rotateZ: '45deg', top: '-5px'};
+
+    sidebatToggleMotion();
+
+    postsListMotion();
+
+    function sidebarContentMotion () {
+      $('.sidebar .motion-element').velocity('transition.slideDownIn', {stagger: 100, drag: true});
+    }
+
+
+    $('.sidebar-toggle').on('click', function () {
+      isSidebarVisible ? sidebarHideMotion() : sidebarShowMotion();
+      isSidebarVisible = !isSidebarVisible;
+    });
+
+    function sidebarShowMotion () {
+      var sidebarDisplayDuration = 300;
+      var sidebarWidth = '320px';
+
+      sidebarToggleLine1st.velocity(sidebarToogleLine1stStatusClose);
+      sidebarToggleLine2nd.velocity(sidebarToogleLine2ndStatusClose);
+      sidebarToggleLine3rd.velocity(sidebarToogleLine3rdStatusClose);
+
+      sidebar.velocity({width: sidebarWidth}, sidebarDisplayDuration);
+      isDesktop() && body.velocity({paddingRight: sidebarWidth}, sidebarDisplayDuration);
+      sidebarContentMotion();
+    }
+
+    function sidebarHideMotion () {
+      isDesktop() && body.velocity('reverse');
+      sidebar.velocity('reverse');
+
+      sidebarToggleLine1st.velocity(sidebarToggleLine1stStatusInit);
+      sidebarToggleLine2nd.velocity(sidebarToggleLine2ndStatusInit);
+      sidebarToggleLine3rd.velocity(sidebarToggleLine3rdStatusInit);
+    };
+
+    function postsListMotion () {
+      $('.post').velocity('transition.slideDownIn', {stagger: 300, drag: true});
+    }
+
+    function sidebatToggleMotion () {
+      sidebarToggle.hover(function () {
+        if (isSidebarVisible) {return}
+        sidebarToggleLine1st.velocity(sidebarToggleLine1stStatusArrow);
+        sidebarToggleLine2nd.velocity(sidebarToggleLine2ndStatusArrow);
+        sidebarToggleLine3rd.velocity(sidebarToggleLine3rdStatusArrow);
+      }, function () {
+        if (isSidebarVisible) {return}
+        sidebarToggle.velocity('reverse');
+        sidebarToggleLine1st.velocity(sidebarToggleLine1stStatusInit);
+        sidebarToggleLine2nd.velocity(sidebarToggleLine2ndStatusInit);
+        sidebarToggleLine3rd.velocity(sidebarToggleLine3rdStatusInit);
+      });
+    }
+
+    function isDesktop () {
+      return screen.width > 991;
+    }
+
+    function isTablet () {
+      return screen.width < 992 && screen.width > 767;
+    }
+
+    function isMobile () {
+      return screen.width < 767;
+    }
   </script>
 
   {% block script_extra %}{% endblock %}

@@ -11,7 +11,7 @@ menu:
 
 post:
   posted: 发表于
-  read_more: 阅读全文
+  read_more: 继续阅读
   untitled: 未命名
 
 page:
@@ -33,6 +33,11 @@ counter:
     zero: 暂无日志。
     one: 目前共计 1 个日志。
     other: "目前共计 %d 个日志。"
+
+state:
+  posts: 日志
+  pages: 页面
+  tags: 标签
 
 cheers:
   um: 嗯..

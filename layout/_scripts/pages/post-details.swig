@@ -27,21 +27,30 @@
 
     function processTOC () {
       getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
     }
 
     function getTOCMaxHeight () {
-      // TODO: Make it beautiful
       var $sidebarInner = $('.sidebar-inner');
       var height = $('.sidebar').height() -
-        parseInt($sidebarInner.css('padding-top'), 10) -
-        parseInt($sidebarInner.css('padding-bottom'), 10) -
-        $('.sidebar-nav').height() -
-        parseInt($tocSelector.css('margin-top'), 10) -
-        parseInt($tocSelector.css('margin-bottom'), 10);
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
 
       $tocSelector.css('height', height);
 
       return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
     }
 
     $(document).on('sidebar.didShow', function () {
@@ -61,11 +70,21 @@
       element.on('mousewheel DOMMouseScroll', function (event) {
           var oe = event.originalEvent;
           var delta = oe.wheelDelta || -oe.detail;
+          var self = this;
 
           this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
           event.preventDefault();
+
+          toggleTOCOverflowIndicators();
       });
     }
+
+    function tocOverflowIndicator (indicator, action) {
+      $(indicator).velocity('stop').velocity({
+        opacity: action === 'show' ? 0.4 : 0
+      }, { duration: 100 });
+    }
+
   });
 </script>
 

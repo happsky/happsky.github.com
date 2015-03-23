@@ -51,10 +51,10 @@
         </div>
       {% endif %}
 
-      <div class="social-info motion-element">
+      <div class="links-of-author motion-element">
         {% if theme.social %}
           {% for name, link in theme.social %}
-            <span class="social-item">
+            <span class="links-of-author-item">
               <a href="{{ link }}">{{ name }}</a>
             </span>
           {% endfor %}
@@ -76,7 +76,12 @@
       <div class="post-toc-wrap sidebar-panel-active">
         <div class="post-toc-indicator-top post-toc-indicator"></div>
         <div class="post-toc">
-          {{ toc(page.content, {"class": "nav"}) }}
+          {% set toc = toc(page.content, {"class": "nav", list_number: theme.toc_list_number}) %}
+          {% if toc.length === 0 %}
+            <p class="post-toc-empty">{{ __('post.toc_empty') }}</p>
+          {% else %}
+            <div class="post-toc-content">{{ toc }}</div>
+          {% endif %}
         </div>
         <div class="post-toc-indicator-bottom post-toc-indicator"></div>
       </div>

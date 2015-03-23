@@ -6,6 +6,7 @@ title:
 menu:
   home: 首页
   archives: 归档
+  categories: 分类
   tags: 标签
   about: 关于
 
@@ -16,8 +17,10 @@ sidebar:
 
 post:
   posted: 发表于
+  in: 分类于
   read_more: 阅读全文
   untitled: 未命名
+  toc_empty: 此文章未包含目录
 
 page:
   totally: 共有
@@ -33,6 +36,11 @@ counter:
     zero: 暂无标签
     one: 目前共计 1 个标签
     other: "目前共计 %d 个标签"
+
+  categories:
+    zero: 暂无分类
+    one: 目前共计 1 个分类
+    other: "目前共计 %d 个分类"
 
   archive_posts:
     zero: 暂无日志。
@@ -53,3 +61,7 @@ cheers:
   excellent: 太棒了
 
 keep_on: 继续努力。
+
+symbol:
+  comma: '， '
+  period: '。 '

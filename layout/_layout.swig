@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="theme-next {% if theme.use_motion %}use-motion{% endif %}">
+<html class="theme-next {% if theme.use_motion %}use-motion{% endif %} {% if theme.theme %}theme-next-{{theme.theme}}{% endif %}">
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
@@ -32,7 +32,7 @@
 
           {% if not is_post() and (page.prev || page.next) %}
             <div class="pagination">
-              {{ paginator({prev_text: '&laquo;', next_text: '&raquo;'}) }}
+              {{ paginator({prev_text: '&laquo;', next_text: '&raquo;', mid_size: 1}) }}
             </div>
           {% endif %}
         </div>

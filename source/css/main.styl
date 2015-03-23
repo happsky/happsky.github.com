@@ -1,9 +1,10 @@
 // CSS Style Guide: http://codeguide.co/#css
 
-
+$is-mist = hexo-config('scheme') == 'Mist';
 
 // Core variables and mixins
-@import "_core/variables";
+@import "_variables/base";
+@import "_variables/mist" if $is-mist;
 @import "_core/mixins";
 
 
@@ -49,12 +50,15 @@
 @import "_component/duoshuo";
 
 
-
 // Page specific styles
 @import "_page/home";
 @import "_page/archive";
 @import "_page/post-detail";
+@import "_page/categories";
 
+
+// Import theme.
+@import "_mist" if $is-mist;
 
 // Custom styles
 @import "_custom";

@@ -1,6 +1,6 @@
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   archives: /archives
   tags: /tags
   #about: /about

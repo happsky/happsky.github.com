@@ -1,13 +1,13 @@
-# Header
-menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+markdown: redcarpet
+highlighter: null
+permalink: /:title
 
-# Content
-excerpt_link: Read More
-fancybox: true
+url:
+baseurl:
 
-# Miscellaneous
-google_analytics:
-favicon: /favicon.png
+redcarpet:
+  extensions: [strikethrough, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed

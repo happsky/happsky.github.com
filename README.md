@@ -1,21 +1,35 @@
-Jekyll Themes
-=============
+# Researcher
 
-A directory of the best-looking themes for Jekyll blogs
+### [Demo Website](https://ankitsultana.me/researcher)
 
+A clean, single column, monospace resume template built for jekyll
 
-Submitting a Theme
-------------------
+### Installation
 
-Have a theme you want to share?
+Simply fork the repository and edit away.
 
-* Fork the site on GitHub
-* Create a new post in the `_posts` directory and fill out the relevant YAML fields
-* Make a 250x200 thumbnail and drop it in the thumbnails directory. List its filename in the post's markdown file.
-* Test it out, then push your changes up and open a pull request.
+### Customization
 
+* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
 
-License
--------
+* You can of course remove `contact.md` if you don't want it
 
-The contents of this repository are licensed under the [GNU Public License.](http://www.gnu.org/licenses/gpl-3.0.html)
+* To set the heading, edit the `title` variable in `_config.yml`
+
+* To edit the `links` mentioned on the navigation bar, edit the file `_data/nav.yml`
+
+* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+
+* You can setup google analytics, by setting `tracking_id` in `_config.yml`
+
+* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
+
+```html
+<img class="profile-picture" src="sherlock.jpg">
+```
+
+**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+
+### License
+
+[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)

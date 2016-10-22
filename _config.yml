@@ -1,16 +1,11 @@
-name: Jekyll Themes
-url: http://matt.harzewski.com
-description: Insert tagline here
+title: Researcher
+url: "http://ankitsultana.me"
+baseurl: "/researcher"
 
-permalink: /themes/:title/
+markdown: kramdown
 
-gems: [jekyll-paginate]
+tracking_id: #
 
-highlighter: pygments
-paginate: 20
-
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+sass:
+    style: compressed
+    sass_dir: _sass

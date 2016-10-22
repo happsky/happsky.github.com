@@ -1,13 +1,8 @@
-# OS X
+_site
 .DS_Store
-
-# Jekyll build
-/_site/
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+.sass-cache
 .jekyll-metadata
-Gemfile.lock
-
-# webstorm
-.idea/
-
-# others
-*.swp

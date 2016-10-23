@@ -1,59 +1,29 @@
-# Site wide configuration
+title: Book
+description: A simple Jekyll theme
+url: # site url
+avatar: # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
+favicon: # path/to/favicon for site. e.g. /assets/img/favicon.ico
+google_analytics: # google analytics id
+disqus_shortname: # disqus_shortname for disqus comment system
 
-title: Site Title
-locale: en_US
-description: Describe your website here.
-logo: site-logo.png
-search: true
-url: http://localhost:4000
+# Content for about page.
+# Each paragraph will be a <p> tag which is inserted to about
+# page. text_align is used to align the text. Default is left.
+# Other two values are center and right. If there are some links
+# in your paragraph, use '?link?' to take the place of a link.
+# And then write the real link under links. name is the link
+# text. url is the link. when external is set as true, then
+# a new whidow will be open when link is clicked.
+#
+about:
+  - paragraph: ?link?, a simple Jekyll theme. Built by ?link?
+    text_align: center
+    links:
+      - name: Book
+        url: https://github.com/kkninjae/book
+        external: true
+      - name: Lang Liu
+        url: http://kkninjae.com/about/
+        external: false
 
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-
-# Site owner
-owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+    

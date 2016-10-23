@@ -1,8 +1,8 @@
-- name: "Contact"
+- name: "CONTACT"
   link: "contact"
 
-- name: "Resume"
-  link: "resume.pdf"
+- name: "PUBLICATIONS"
+  link: "paper"
 
-- name: "About"
+- name: "HOME"
   link: "index"

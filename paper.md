@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Researcher
 
 ### [Demo Website](https://ankitsultana.me/researcher)

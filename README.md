@@ -1,67 +1,60 @@
-Book
-====
+# Left
 
-Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
+Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
 
-### Screenshots
+This is designed to be an easy layout to modify for your own blog. It was
+extracted from [zachholman.com](http://zachholman.com/), which means it was
+battle-hardened from years of posting serious blog posts about emoji and swear
+words.
 
-![](http://kkninjae.github.io/book/assets/img/mobile.jpg)
+You can see it live right here: <http://zachholman.com/left/>
 
-![](http://kkninjae.github.io/book/assets/img/desktop.jpg)
+![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
 
-![](http://kkninjae.github.io/book/assets/img/404.jpg)
+## Installation
 
-### Features
+- [Fork this repository](https://github.com/holman/left/fork)
+- Clone it: `git clone https://github.com/YOUR-USER/left`
+- Install ruby things: `bundle install` (if this doesn't work, look into [installing Bundler](http://bundler.io))
+- Start it up: `script/server`
 
-* Responsive layout and mobile first
-* Customized [404](http://kkninjae.github.io/book/hehe) page
-* Footer link is the back-home link
+You should have a server up and running locally at <http://localhost:4000>.
 
-### Get started
+## Customization
 
-1.  fork the [repo](https://github.com/kkninjae/book/fork).
-2.  clone `git clone https://github.com/username/book`
-3.  run `jekyll serve -w`
+Next you'll want to change a few things. Most of them can be changed directly in
+[_config.yml](https://github.com/holman/left/blob/gh-pages/_config.yml). That's
+where we'll pull your name, Twitter username, and things like that.
 
-[http://localhost:4000](http://localhost:4000) should be ready.
+There's a few other places that you'll want to change, too:
 
-Customization
--------------
+- [CNAME](https://github.com/holman/left/blob/gh-pages/CNAME): If you're using
+  this on GitHub Pages with a custom domain name, you'll want to change this
+  to be the domain you're going to use. All that should be in here is a
+  domain name on the first line and nothing else (like: `example.com`).
+- [favicon.ico](https://github.com/holman/left/blob/gh-pages/favicon.ico): This
+  is a smaller version of my gravatar for use as the icon in your browser's
+  address bar. You should change it to whatever you'd like.
+- [apple-touch-icon.png](https://github.com/holman/left/blob/gh-pages/apple-touch-icon.png):
+  Again, this is my gravatar, and it shows up in iOS and various other apps
+  that use this file as an "icon" for your site.
 
-### _config.yml file
+## Deployment
 
-* title: site name
-* description: site description
-* url: site url
-* avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.
-* favicon: absolute path of site favicon
-* google_analytics: id for google analystics
-* disqus_shortname: shortname of disque comment system
-* about: content on the about page.
-  you can write more than one paragraph but the format should be like the original one.
-  the special word `?link?` will be replaced by one of the links which are listed under links.
+Left is designed to be deployed to [GitHub Pages](http://pages.github.com). It
+uses [repository metadata](https://help.github.com/articles/repository-metadata-on-github-pages)
+to generate some of your content, like your GitHub URL and avatar information (so you
+might not actually see it locally until you push it up to Pages).
 
-### warning
+All you should have to do is rename your repository on GitHub to be
+`username.github.com`. Since everything is on the `gh-pages` branch, you
+should be able to see your new site at <http://username.github.io>.
 
-Please do not delete the first two lines of style.css file.
+## Licensing
 
-End.
-----
+This is [MIT](https://github.com/holman/left/blob/gh-pages/LICENSE) with no
+added caveats, so feel free to use this on your site without linking back to
+me or using a disclaimer or anything silly like that.
 
-If you like it, [star](https://github.com/kkninjae/book) it.
-
-If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
-
-Open Sources
-------------
-
-The following open sources have been used in this project.
-
-* [Google Fonts](https://www.google.com/fonts)
-* [jQuery](https://jquery.com/)
-* [highlight.js](https://highlightjs.org/)
-
-License
--------
-
-[MIT](./LICENSE)
+If you'd like give me credit somewhere on your blog or tweet a shout out to
+[@holman](https://twitter.com/holman), well hey, I'll take it.

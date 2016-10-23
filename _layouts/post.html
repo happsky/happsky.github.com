@@ -1,70 +1,35 @@
 ---
-layout: default
+layout: layout
 ---
-<div class="footer-clear post-wrapper">
 
-  <!-- post archive trigger -->
-  <div class="post-archive-trigger">
-    <div class="post-archive-icon"></div>
-  </div>
+<section class="content">
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
 
-  <!-- post archive -->
-  <div class="post-archive">
-    <div class="post-archive-iterms">
-      {% for post in site.posts %}
-      {% if page.url == post.url %}
-      {% assign status = 'checked' %}
-      {% else %}
-      {% assign status = '' %}
-      {% endif %}
-      <a class="post-archive-iterm" href="{{ post.url }}">
-        <span class="post-archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <span class="post-archive-title {{ status }}">{{ post.title }}</span>
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
+
+  {{ content }}
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+        <img src="{{ site.github.owner_gravatar_url }}?s=142" height="50" width="50" />
       </a>
-      {% endfor %}
-    </div>
-  </div>
 
-  <!-- post header -->
-  <div class="post-header">
-    <h1>{{ page.title }}</h1>
-    <span>{{ page.date | date: "%Y-%m-%d" }}</span>
-  </div>
+      <p>
+        I'm a developer at GitHub. <a href="https://twitter.com/{{ site.twitter }}" target="_blank">Follow me on Twitter</a>;
+        you'll enjoy my tweets. I take care to carefully craft each one. Or at least aim to make
+        you giggle. Or offended. One of those two&mdash; I haven't decided which yet.
+      </p>
 
-  <!-- post content -->
-  {% if page.tags contains 'chinese' %}
-  {% assign type = 'chinese' %}
-  {% else %}
-  {% assign type = 'english' %}
-  {% endif %}
-
-  <div class="post-content {{ type }}">
-    {{ content }}
-  </div>
-
-  <!-- post navigator -->
-  <div class="post-nav">
-    {% if page.previous %}
-    <a class="post-nav-previous"href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-    {% endif %}
-
-    {% if page.previous and page.next %}
-    <div class="post-nav-sep"></div>
-    {% endif %}
-
-    {% if page.next %}
-    <a class="post-nav-next" href="{{ page.next.url }}">{{ page.next.title }}</a>
-    {% endif %}
-  </div>
-
-  <!-- disqus comment system -->
-  {% if site.disqus_shortname != '' %}
-  <div class="post-comment">
-    {% include disqus.html %}
-  </div>
-  {% endif %}
-
-  <!-- footer -->
-  {% include footer.html %}
-
-</div>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
+      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+</section>

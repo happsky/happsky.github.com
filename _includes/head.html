@@ -1,11 +1,25 @@
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<head>
+  <meta charset="utf-8">
+  <title>
+    {% if page.title %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    {{ site.name }}
+  </title>
 
-<!-- favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon }}" />
-<link rel="icon" type="image/x-icon" href="{{ site.favicon }}" />
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ site.url }}/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="{{ site.url }}/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="{{ site.github.url }}/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="{{ site.github.url }}/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" href="{{ site.github.url }}/apple-touch-icon.png" />
+
+  <script type="text/javascript" src="{{ site.github.url }}/js/application.js"></script>
+</head>

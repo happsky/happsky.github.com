@@ -1,27 +1,11 @@
 ---
-layout: page
-title: About Me
-permalink: /about/
+layout: layout
+title: "About"
 ---
-<div class="about-wrapper">
 
-  {% for p in site.about %}
-  {% assign content = p.paragraph %}
-  {% for link in p.links %}
-  {% if link.external %}
-  {% assign target = '_blank' %}
-  {% else %}
-  {% assign target = '_self' %}
-  {% endif %}
-  {% assign a = '<a class="link-1" href="' | append: link.url | append: '" target="' | append: target | append: '">' | append: link.name | append: '</a>' %}
-  {% assign content = content | replace_first: '?link?', a %}
-  {% endfor %}
-  {% if p.text_align %}
-  {% assign alignment = p.text_align %}
-  {% else %}
-  {% assign alignment = 'left' %}
-  {% endif %}
-  <p style="text-align: {{ alignment }}">{{ content }}</p>
-  {% endfor%}
+<!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
+<section class="content">
+  <h1>{{ site.name }}</h1>
 
-</div>
+  <p>This would be an excellent time to update this page and talk about yourself a bit.</p>
+</section>

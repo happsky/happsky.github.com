@@ -1,7 +1,16 @@
 ---
-layout: page
+layout: layout
+title: "Posts"
 ---
-<div class="index-wrapper">
-  <a class="link-1" href="{{ site.posts[0].url }}">post</a> /
-  <a class="link-1" href="/about/">about</a> /
-</div>
+
+<section class="content">
+  <ul class="listing">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <li>
+        <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>

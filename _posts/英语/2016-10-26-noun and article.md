@@ -83,7 +83,7 @@ description:
 
  	knife：knives
 	
- >例外：handkerchiefs, chiefs, roofs
+	>例外：handkerchiefs, chiefs, roofs
 
 	不规则变化的复数名词
 
@@ -133,7 +133,7 @@ description:
 
  	女孩的名字：有生命的东西，the girl's name/the name of the girl
 
->所有格之后的名词（地点），如在句子中非常容易理解时，可以省略 
+	>所有格之后的名词（地点），如在句子中非常容易理解时，可以省略 
 
  	She’s going to the dentist's (office).
 

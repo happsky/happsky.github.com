@@ -104,11 +104,11 @@ description:
 
  	a girls' school/these students' teacher
 
->字尾非s的复数名词：名词’s
-
->children's playground
-
->women's activities
+	>字尾非s的复数名词：名词’s
+	
+	>children's playground
+	
+	>women's activities
 
 #### 特别注意的所有格用法
 ----------
@@ -119,11 +119,11 @@ description:
 
 - 个别所有格：名词’s+名词’s+...+名词’s
 
->**Harry and Bill's** father is a scientist.
-
->**Harry's and Bill's** fathers are scientist.
-
->**Mr and Mrs. Brown's** car
+	>**Harry and Bill's** father is a scientist.
+	
+	>**Harry's and Bill's** fathers are scientist.
+	
+	>**Mr and Mrs. Brown's** car
 
 - (无)生物所有格 A的B：B of A
 

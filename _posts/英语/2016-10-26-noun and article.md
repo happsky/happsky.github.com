@@ -7,14 +7,14 @@ keywords:
 description: 
 ---
 
-# Unit 1 名词+冠词 #
+## Unit 1 名词+冠词 
 
 ----------
 
 
 名词的功用：当主语，补语，受词
 
-## 名词的种类 ##
+### 名词的种类 ##
 ----------
 
 - 普通名词: book, pencil, dog, spaceship ...
@@ -50,7 +50,7 @@ description:
 - 抽象名词: beauty, honesty, love, patience, happiness, music ... （不可数名词）
 
 
-## 名词的数（可数名词）
+### 名词的数（可数名词）
 ----------
 
 个数1：单数；个数2以上：复数
@@ -91,7 +91,7 @@ description:
 - 改变母音：man-men/woman-women/goose-geese/tooth-teeth/mouse-mice
 - 单复数同形：fish，deer，sheep，Chinese，Japanse
 
-## 名词的所有格 
+### 名词的所有格 
 ----------
 
 所有格的表现是“的”。
@@ -110,7 +110,7 @@ the boy's schoolbag/Joan**'s**（的） dress
 
 >women's activities
 
-### 特别注意的所有格用法
+#### 特别注意的所有格用法
 ----------
 
 共同所有格以及个别所有格
@@ -142,7 +142,7 @@ the boy's schoolbag/Joan**'s**（的） dress
  We like to eat lunch at McDonald's.
 
 
-# 冠词
+## 冠词
 ----------
 
 冠词分为不定冠词a/an以及定冠词the，它通常放在名词前，用来修饰名词

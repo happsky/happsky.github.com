@@ -1,29 +1,34 @@
 ---
+
 layout: post
 title: Unit 2 be动词和一般动词的现在式
 category: 英语
-tags: 英语
+tags: English
 keywords: 
 description: 
+
 ---
 
 动词分两类：
+
 - be动词，be动词表示**状态/存在**
 - 一般动词，一般动词表示**动作**
 
-## be动词的现在式-am，are，is
+## be动词的现在式am，are，is
 
 ----------
 
 ### be动词的含义
 ----------
 
->**是**, We(S.) are(V.) happy.
+- **是**, We(S.) are(V.) happy.
+
 >为什么不能是We happy，因为一个英文句子必须要要有主语（S.）和谓语（V.）
 
->**在**, She is in America.
+- **在**, She is in America.
 
 主语+be动
+
 - 第一人称(I) + am: I am a boy
 - 第二人称（you）/第三人称复数（they）/复数名词+are： You are my sons.
 - 第三人称单数/单数名词 + is： He is my student.
@@ -59,11 +64,12 @@ Answer: Yes, I am. No, I am not.
 第三人称：He **likes** dogs./They like dogs.
 
 一般动词加或es的方法
+
 - 大部分动词加s，其发音为[s]或者[z], e.g., works[s]无声+无声, plays[z]有声+有声
 - 一般动词字尾以o，s，sh，ch时，加es，e.g.,goes, washes, watches
 - 一般动词字尾为辅音+y时，必须去掉y加ies（y和i同音），e.g., cry（cries）， study（studies） 
 - have 和 has: have(有，吃)的单数动词为has.
 	
-	Thay have a lot of money (不可数n).
+Thay have a lot of money (不可数n).
 
-	He has a lot of money.
+He has a lot of money.

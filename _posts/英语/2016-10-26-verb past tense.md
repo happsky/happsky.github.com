@@ -11,7 +11,9 @@ description:
 
 ## be动词的过去式:was/were
 
-am/is:was(wasn't); are:were(weren't)
+am/is:was(wasn't); 
+
+are:were(weren't)
 
 过去式be动词表示“过去时间中发生的状态”
 
@@ -70,6 +72,9 @@ Yes, I was./No, I wasn't.
 eat-ate/read[i]-read[rai]/ride-rode(骑车)/come-came/go-went/have-had/see-saw/teach-tought/give-gave/take-took
 
 I walk to school every day.
+
 过去式： I walked to school yesterday.
 
 >时态：动词会随着时间改变形态
+
+

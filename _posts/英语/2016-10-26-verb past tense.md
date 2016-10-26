@@ -77,4 +77,28 @@ I walk to school every day.
 
 >时态：动词会随着时间改变形态
 
+Mother goes to a supermartket every morning.
+
+过去式：Mother **went** to a supermarket yesterday morning.
+
+>过去式不分人称,
+>主语为第三人称单数时，过去式动词不需要加s
+
+一般动词（过去式）的否定句:必须用助动词did 
+
+肯定句：主语+一般动词（过去式）...
+
+否定句：主语+did not(didn't)+动词原形...
+
+疑问句：Did+主语+动词原形...?
+
+He did his homework.
+
+Did(助动词) he do（动词原形 his homework?
+
+Yes,he did.
+
+No,he didn't.
+
+
 

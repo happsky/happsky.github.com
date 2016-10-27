@@ -47,12 +47,12 @@ description:
    <tr>
       <td>第三人称（她）</td>
       <td>she, her, her </td>
-      <td>和上面相同 </td>
+      <td>同上</td>
    </tr>
    <tr>
       <td>第三人称（它，牠））</td>
       <td>it, its, it </td>
-      <td>和上面相同 </td>
+      <td>同上 </td>
    </tr>
 </table>
 
@@ -182,7 +182,7 @@ I met **one of** my old friend**s** on the way home.
 
 >one of(之一)，后面名词要加复数
 
-I met an old friend of mine (my friends) on the way home. 
+I met an old friend of mine (mine=my friends) on the way home. 
 
 >名词的所有代名词 = 所有格
 
@@ -267,6 +267,7 @@ The weather in Taipei is cooler than that (that代替**the weather**） in Kaohs
 Her interests **are different from** those(代替the intersets） of（的） her childhood.
 
 >A be different from B, A和B不一样
+>
 >看到of的时候，翻译从后往前推
 
 ### so
@@ -286,9 +287,8 @@ Do you still feel sick?If so, you must see the doctor.
 
 Nancy can(助动词) play(助动词后面加动词原形) the violin, and so can I.(so can I = I can, too.我也会)
 
-She is smart. So she is.(她的确如此，主语+谓语表示强调)
-
-She is smart. So is he(他也是).
+- She is smart. So she is.(她的确如此，主语+谓语表示强调)
+- She is smart. So is he(他也是).
 
 ### such
 
@@ -308,6 +308,7 @@ I don't know **such**（那样的） a man.
 **Have** you **tasted** any such food（food不可数名词） before?
 
 >Have+过去分词：现在完成式，表示经验
+>
 >such前面可以接all,other,another,any,few,every,no...等
 
 ### same
@@ -368,13 +369,14 @@ both(两者都)：用于两个人或两个事物
 all（全部；所有的）：指数量为3或者3以上的人或者事物，也可以代表不可数名词（all water， all money）
 
 >位置：be或者助动词之后/一般动词之前 
+>
 >定冠词（the），所有格，数词，形容词之前
 
 all my books
 
 Both of(的) her children went（去过） to New York.
 
-I've read both these papers.
+I've read both these papers （报纸）.
 
 All of my money（不可数名词） **was** stolen.(不可数名词永远用单数)
 
@@ -405,11 +407,11 @@ I don't like both hats.(部分否定)
 
 I like neither of the hats.(全部否定)
 	
->否定句中的“也不”，either,neither也有副词用法。（也不）
+>否定句中的“也不”：either,neither也有副词用法。（也不）
 
->肯定句中的“也”,too，句尾；so+倒装句。
+>肯定句中的“也”：too，放在句尾；so+倒装句。
 
-Bill didn't come to my party, and Ken didn't, either/neither did Ken.(Ken也没来)
+Bill didn't come to my party, and Ken didn't, either./neither did Ken.(Ken也没来)
 
 ### some/any ###
 
@@ -453,9 +455,9 @@ I don't like this one; show me **another** (总数为3或者以上).
 
 I don't like this one; show me **the other** (总数为2).
 
-Some of the boys are here, but where are **the others**.
+Some of the boys are here, but where are **the others**?
 
-Some people said yes and others said no. 
+Some people said yes and **others** said no. 
 
 ![1](/public/img/posts/e1.jpg)
 

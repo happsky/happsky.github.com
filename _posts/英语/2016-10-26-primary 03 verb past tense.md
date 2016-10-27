@@ -12,6 +12,9 @@ description:
 
 ## be动词的过去式:was/were
 
+----------
+
+
 am/is:was(wasn't); 
 
 are:were(weren't)
@@ -39,7 +42,10 @@ Joe and Brian were in the living room at that time.
 
 否定句：Joe and Brain were not in the living room at that time. 
 
-be动词（过去式）的疑问句
+### be动词（过去式）的疑问句
+
+----------
+
 
 肯定句：主语+was/were...
 
@@ -51,15 +57,17 @@ Wendy was in the seventh grade last year.
 
 回答：
 
-Yes,主语+was/were.
-
-No,主语+was/were + not.
+- Yes,主语+was/were.
+- No,主语+was/were + not.
 
 Were you a pianist?
 
 Yes, I was./No, I wasn't.
 
 ## 一般动词的过去式
+
+----------
+
 
 规则变化：-ed[t]，[d]，[id]
 
@@ -95,11 +103,10 @@ Mother goes to a supermartket every morning.
 
 He did his homework.
 
-Did(助动词) he do（动词原形 his homework?
+Did(助动词) he do（动词原形） his homework?
 
-Yes,he did.
-
-No,he didn't.
+- Yes,he did.
+- No,he didn't.
 
 
 

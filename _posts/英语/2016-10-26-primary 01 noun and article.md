@@ -17,6 +17,7 @@ description:
 名词的功用：当主语，补语，受词
 
 ### 名词的种类 ##
+
 ----------
 
 - 普通名词: book, pencil, dog, spaceship ...
@@ -45,11 +46,16 @@ a loaf of bread, a cup of coffee, a sheet of paper, a spoonful of sugar
 
 
 ### 名词的数（可数名词）
+
 ----------
 
-个数1：单数；个数2以上：复数
+- 个数1：单数；
+- 个数2以上：复数
 
 #### 规则变化的复数名词+s或+es
+
+----------
+
 
 - 名词字尾加s：大部分名词
 
@@ -61,21 +67,25 @@ a loaf of bread, a cup of coffee, a sheet of paper, a spoonful of sugar
 
 - 名词字尾为辅音+y：去y + ies
 
-baby：babies，story：stories，city：cities，lady：ladies
+baby：babies；story：stories；city：cities；lady：ladies
 
 - 名词字尾为f或者fe：去掉f或者fe +ves
 
-leaf：leaves，wife：wives，knife：knives
+leaf：leaves；wife：wives；knife：knives
 	
 >例外：handkerchiefs, chiefs, roofs
 
 #### 不规则变化的复数名词
+
+----------
+
 
 - 名词字尾为en，ren： ox-oxen/child-children
 - 改变母音：man-men/woman-women/goose-geese/tooth-teeth/mouse-mice
 - 单复数同形：fish，deer，sheep，Chinese，Japanse
 
 ### 名词的所有格 
+
 ----------
 
 所有格的表现是“的”。
@@ -93,6 +103,7 @@ a girls' school/these students' teacher
 children's playground, women's activities
 
 #### 特别注意的所有格用法
+
 ----------
 
 共同所有格以及个别所有格
@@ -101,11 +112,11 @@ children's playground, women's activities
 
 - 个别所有格：名词’s+名词’s+...+名词’s
 
-**Harry and Bill's** father is a scientist.
+**Harry and Bill's** father is a scientist.（两人的父亲，父亲指得一个人）
 	
-**Harry's and Bill's** fathers are scientist.
+**Harry's and Bill's** fathers are scientist.（两人分别的父亲）
 	
-**Mr and Mrs. Brown's** car
+**Mr and Mrs. Brown's** car（两人共有的车）
 
 - (无)生物所有格 A的B：B of A
 
@@ -125,11 +136,12 @@ We like to eat lunch at McDonald's.
 
 
 ## 冠词
+
 ----------
 
 冠词分为不定冠词a/an以及定冠词the，它通常放在名词前，用来修饰名词
 
-a/an的用法：
+### a/an的用法：
 
 - a+子音（辅音）开头的单数名词
 
@@ -145,7 +157,7 @@ I read a [倒e] novel.
 
 I read a [e] novel, not two.
 
->the的用法：可以指特征的某一个或者某一些，在元音和辅音前读法不同，
+### the的用法：可以指特征的某一个或者某一些，在元音和辅音前读法不同，
 
 Please shut the door.
 

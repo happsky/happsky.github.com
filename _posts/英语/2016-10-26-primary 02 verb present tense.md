@@ -19,6 +19,7 @@ description:
 ----------
 
 ### be动词的含义
+
 ----------
 
 - **是**, We(S.) are(V.) happy.
@@ -53,15 +54,21 @@ Is that man your math teacher?
 
 回答：Yes,he is./No,he is **not**(No, he's my PE teacher).
 
-不能回答：Yes,that man is.
+不能回答：Yes,that man is.（重复啰嗦了）
 
 Are you eating your lunch?
 
-Answer: Yes, I am. No, I am not.
+Answer: 
+
+- Yes, I am. 
+- No, I am not.
 
 >用be动词来问，用be动词来回答
 
 ### 一般动词的现在式
+
+----------
+
 主语+一般动词：现在式中，主语为第三人称单数（他，她，它，牠），一般动词加s或者es
 
 第一人称：I like dogs./We like dogs.

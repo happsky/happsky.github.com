@@ -21,7 +21,13 @@ e3.I always rely on him when I am in trouble.
 
 ## 连接词的种类
 
+----------
+
+
 ### 1. 对等连接词：连接同词性的单词，短语，子句
+
+----------
+
 
 （1）and（和；并且；那么）
 
@@ -97,6 +103,9 @@ Neither my mother nor `I` was listening to the news on TV.
 
 ### 2. 从属连接词：引导名词子句或副词子句，连接两个子句
 
+----------
+
+
 - 名词子句：由that或者whether（是否）/if引导，当S.C.O.
 
 I know her name.
@@ -138,6 +147,9 @@ e2.If my parents `come` back home tomorrow, I'll call you up.（副词子句）
 
 ####（1）名词子句：that+S+V，可以当S.C.O
 
+----------
+
+
 - 当主语
 
 e1.She will come.
@@ -174,6 +186,9 @@ e.I heard the news that a new student would join our class.
 
 #### (2)if/whether（是否）+主语+动词
 
+----------
+
+
 - 当主语
 
 e.`Whether` he will come `or not` makes no difference.(当主语whether不等于if)
@@ -190,6 +205,9 @@ e.He asked me if/whether it `would` be fine toworrow.
 >ask(问)+O（人）+O（事），授予V
 
 #### (3)表示“时间”的副词子句：由after,as,before,since,until,till,when,while,as soon as引导
+
+----------
+
 
 e1.在我告诉你们答案之后，请大声地跟我复诵一遍。
 
@@ -216,11 +234,17 @@ When my dad came back,I was sleeping.
 
 #### （4）表示“地点”的副词子句：由where引导
 
+----------
+
+
 e1.Where there is a will, there is a way.
 
 e2.Put it back where it was. 
 
 #### (5)表示“原因；理由”的副词子句：由because,since,as引导。语气强弱的顺序：because>since>as
+
+----------
+
 
 >because和so不可同时出现
 
@@ -252,11 +276,17 @@ e2.He is absent not beacuse he is busy but because he is ill.
 
 #### (6)表示“条件”的副词子句：if（如果）
 
+----------
+
+
 e.如果你继续吃速食，不久你将尝到苦果。
 
 If you keep eating fast food,you'll taste the bitter fruits before long.
 
 #### (7)表示“让步” 的副词子句:though,although,whether or not
+
+----------
+
 
 e.Though Taiwan is samll, I love it. After all, it is my homeland.
 =Taiwan is samll, but I love it.After all, it is my homeland.
@@ -269,6 +299,9 @@ e1.Although she is a teacher, she isn't patient with children.
 e2.Whether(不等于if) `rains` it or not,the final game `will` be played.
 
 #### (8)表示“结果；目的”的副词子句：so(beV+形/V+副)...that+S+V...;so that...
+
+----------
+
 
 e1.It was `so` heavy `that` we `couldn't` move it. 
 =It was `too` heavy for us `to` move.(不定词后面的宾语跟主语一样的时候一定要省略)

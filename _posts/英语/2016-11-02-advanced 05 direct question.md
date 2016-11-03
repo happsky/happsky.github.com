@@ -11,6 +11,9 @@ description:
 
 ## 直接问句和间接问句
 
+----------
+
+
 （1）直接问句（WH问句）：疑问词（句首）+
 
 - beV+S?
@@ -29,6 +32,9 @@ e.I have no idea who that tall girl is.
 >间接问句句尾的标点符号，以主要子句为准。
 
 ## 间接问句的形成
+
+----------
+
 
 （1）be动词：疑问句（句中）+S+beV...
 
@@ -71,6 +77,9 @@ e3.没有人知道谁在考试时作弊。
 Nobody knows who cheated on the exam.
 
 ## 特别注意的间接问句
+
+----------
+
 
 （1）含do you think/guess/say...的间接问句
 

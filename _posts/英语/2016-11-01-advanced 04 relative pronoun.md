@@ -11,6 +11,9 @@ description:
 
 ## 关系代名词的功用：连接词+代名词
 
+----------
+
+
 e1.I have a friend.The friend lives in Paris.
 =I have a friend `and he` lives in Paris.
 =I have a friend `who` lives in Paris.
@@ -28,6 +31,9 @@ e2.I met two girls, one of `whom` is my cousin.
 =I met two girls and one of them is my cousin.
 
 ## 关系代名词的种类
+
+----------
+
 
 <table  class="table table-bordered table-striped table-condensed">
    <tr>
@@ -58,6 +64,8 @@ e2.I met two girls, one of `whom` is my cousin.
 
 ## 格的用法
 
+----------
+
 （1）主格+动词：The man who talked to me.
 
 （2）所有格+名词：The man whose car was stolen.
@@ -66,7 +74,13 @@ e2.I met two girls, one of `whom` is my cousin.
  
 ### 主格的关系代名词
 
+----------
+
+
 ####（1）主格who：先行词（人）+主格关代+`who`+动词
+
+----------
+
 
 e1.The man（先行词） is my father.
 （The man） wears sunglasses.
@@ -78,6 +92,9 @@ They get out of temper easily.
 
 #### (2)主格which：先行词（事物；动物）+主格关代+`which`+动词
 
+----------
+
+
 e1.I live in the house.
 The house stands on the hill.
 =I live in the house which stands on the hill. 
@@ -87,6 +104,9 @@ It is spoken all over the world.
 =English is a language which `is` spoken all over the world. 
 
 #### (3)主格关代that：先行词（人；事物；动物）+主格关代+`that`+动词
+
+----------
+
 
 e1.【帮忙医生照顾病人的】人称为护士。
 
@@ -126,6 +146,9 @@ e.I think that honesty is the best policy.(上策)
 
 ### 所有格的关系代名词
 
+----------
+
+
 所有格whose：先行词（人；事物；动物）+所有格关代whose+名词
 
 e1.I know a girl.
@@ -137,6 +160,9 @@ Its roof was damaged.
 =Look at the house whose roof was damaged.
 
 ### 宾格的关系代名词
+
+----------
+
 
 （1）宾格whom：先行词（人）+宾格关代whom+S+V+（介词）
 
@@ -175,6 +201,9 @@ The sandwiches (that) we `ate for` lunch were not delicious.
 >eat 物品 for 餐
 
 ## 特别注意的关系代名词
+
+----------
+
 
 (1)宾格的关系代名词可省略
 
@@ -277,6 +306,9 @@ e.This is a cake which was made by Mrs.White.
 e.She is a girl who has/having/with blond hair.
 
 ## 修饰名词的字，短语，子句
+
+----------
+
 
 （1）置于名词前的形容词，分词
 

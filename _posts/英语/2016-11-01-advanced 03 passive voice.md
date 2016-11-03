@@ -11,6 +11,9 @@ description:
 
 ## 主动和被动
 
+----------
+
+
 e1.Tom repairs bikes.->Tom
 
 e2.Bikes are repaired by Tom.->Bikes
@@ -29,6 +32,9 @@ e3.English and French are spoken in Canada.
 
 ## 主动及被动的转换
 
+----------
+
+
 e.主动：He praised(及物动词) me.
 
 被动：I was praised by him.
@@ -43,6 +49,9 @@ e3.He take care of the newcomer to the club.
 =The newcomer to the club is taken care of by him.
 
 ## 各时态的被动语态形式:beV(管时态)+p.p.（管被动）
+
+----------
+
 
 （1）现在式的被动语态：am/are/is+p.p.
 
@@ -104,6 +113,9 @@ e.The teacher has already punished the naughty boy.
 
 ## 各句型的被动语态形式
 
+----------
+
+
 （1）Yes/No问句：即beV/aux为首的问句。
 
 e1.Did Judy mess up my room?
@@ -164,6 +176,9 @@ e2.We can't see a full moon tonight.
 =A full moon can't be seen (by us) tonight.
  
 ## 特别注意的被动语态
+
+----------
+
 
 （1）by+行为者子省略：
 

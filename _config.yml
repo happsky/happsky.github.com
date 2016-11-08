@@ -4,9 +4,9 @@ markdown: redcarpet
 
 # 作者信息
 author: 
-  name: Anya Lin
-  email: lay.1010@hotmail.com
-  link: http://painterlin.com
+  name: Hao Tang
+  email: bjdxtanghao@gmail.com
+  link: http://happsky.github.io/
   weibo: http://weibo.com/orangeissweet
   github: http://github.com/lay1010
   music: http://site.douban.com/linanya
@@ -19,8 +19,8 @@ url: http://happsky.github.io
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/manba.jpg
-favicon: /public/img/manba.jpg
+gavatar: /public/img/manba.png
+favicon: /public/img/manba.png
 
 # google analytics 设置
 ga:

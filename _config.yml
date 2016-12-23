@@ -19,8 +19,8 @@ url: http://happsky.github.io
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/manba.png
-favicon: /public/img/manba.png
+gavatar: /public/img/deer3.png
+favicon: /public/img/deer3.png
 
 # google analytics 设置
 ga:
